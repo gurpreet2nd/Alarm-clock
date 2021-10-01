@@ -1,3 +1,14 @@
+from tkinter import *
+from tkinter import ttk
+import time
+import os
+from tkinter import messagebox
+
+# def main():
+root = Tk()
+root.title("Alarm clock")
+
+
 def SubmitButton():
     AlarmTime = entry1.get()
     Message1()
@@ -41,3 +52,11 @@ entry2 = ttk.Entry(frame1, width=30)
 entry2.pack()
 
 button1 = ttk.Button(frame1, text="submit", command=SubmitButton)
+button1.pack()
+# this Label2 will show the Last Alarm Time
+label2 = ttk.Label(frame1)
+label2.pack()
+
+# label2.config(text="hello")
+
+root.mainloop()
