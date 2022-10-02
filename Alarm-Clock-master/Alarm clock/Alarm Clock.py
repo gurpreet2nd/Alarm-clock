@@ -59,4 +59,4 @@ label2.pack()
 
 # label2.config(text="hello")
 
-root.mainloop()
+
